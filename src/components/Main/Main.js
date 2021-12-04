@@ -44,7 +44,7 @@ export class Main extends React.Component{
             1: "brown spot",
             2: "hispa",
             3: "leaf blast",
-			4: "error"
+
 			
         }
         var result = ""
@@ -63,17 +63,22 @@ export class Main extends React.Component{
 			
 			
 			if(labels[idx] == "leaf blast") {
-				result += " \n a disease of rice caused by the fungus Pyricularia oryae, characterized by elliptical leaf spots with reddish-brown margins, brownish lesions and neck rot of the fruiting panicles, and stunting of the plant.";
+				result += " \n a disease of rice caused by the fungus Pyricularia oryae, characterized by elliptical leaf spots with reddish-brown margins, brownish lesions and neck rot of the fruiting panicles, and stunting of the plant.\n
+				
+				";
 			}
 			if(labels[idx] == "brown spot") {
-				result += " \n Brown spot is caused by the fungus Cochliobolus miyabeanus. Also called Helminthosporium leaf spot, it is one of the most prevalent rice diseases in Louisiana. When C. miyabeanus attacks the rice plants at emergence, the resulting seedling blight causes sparse or inadequate stands and weakened plants";
+				result += " \n Brown spot is caused by the fungus Cochliobolus miyabeanus. Also called Helminthosporium leaf spot, it is one of the most prevalent rice diseases in Louisiana. When C. miyabeanus attacks the rice plants at emergence, the resulting seedling blight causes sparse or inadequate stands and weakened plants \n
+				
+				";
+				result += " \n Brown spot is caused by the fungus Cochliobolus miyabeanus. Also called Helminthosporium leaf spot, it is one of the most prevalent rice diseases in Louisiana. When C. miyabeanus attacks the rice plants at emergence, the resulting seedling blight causes sparse or inadequate stands and weakened plants \n
+				
+				";
 			}
 			if(labels[idx] == "hispa") {
 				result += " \n Rice hispa scrapes the upper surface of leaf blades leaving only the lower epidermis. It also tunnels through the leaf tissues. When damage is severe, plants become less vigorous.";
 			}
-			if(labels[idx] == "error") {
-				result = "ERROR: No Classification " + labels[idx] ;
-			}
+			
 			
         }
 
