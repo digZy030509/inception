@@ -68,12 +68,10 @@ export class Main extends React.Component{
 				";
 			}
 			if(labels[idx] == "brown spot") {
-				result += " \n Brown spot is caused by the fungus Cochliobolus miyabeanus. Also called Helminthosporium leaf spot, it is one of the most prevalent rice diseases in Louisiana. When C. miyabeanus attacks the rice plants at emergence, the resulting seedling blight causes sparse or inadequate stands and weakened plants \n
+				result += " \n 
 				
 				";
-				result += " \n Brown spot is caused by the fungus Cochliobolus miyabeanus. Also called Helminthosporium leaf spot, it is one of the most prevalent rice diseases in Louisiana. When C. miyabeanus attacks the rice plants at emergence, the resulting seedling blight causes sparse or inadequate stands and weakened plants \n
 				
-				";
 			}
 			if(labels[idx] == "hispa") {
 				result += " \n Rice hispa scrapes the upper surface of leaf blades leaving only the lower epidermis. It also tunnels through the leaf tissues. When damage is severe, plants become less vigorous.";
