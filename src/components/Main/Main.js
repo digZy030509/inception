@@ -64,7 +64,7 @@ export class Main extends React.Component{
 			
 			if(labels[idx] == "leaf blast") {
 				result += " \n a disease of rice caused by the fungus Pyricularia oryae, characterized by elliptical leaf spots with reddish-brown margins, brownish lesions and neck rot of the fruiting panicles, and stunting of the plant."+
-					" MITIGATION: Use a protectant fungicide so that the panicles is protected as it emerges from the boots. Because rice blast is a multiple cycle disease, fungicide applications to control leaf blast early in the season are generally ineffective in reducing the incidence of neck blast and yield losses.";
+					" MITIGATION: Use a protectant fungicide so that the panicles is protected as it emerges from the boots. Because leaf blast is a multiple cycle disease, fungicide applications to control leaf blast early in the season are generally ineffective in reducing the incidence of neck blast and yield losses.";
 			}
 			if(labels[idx] == "brown spot") {
 				result += " \n Brown spot is caused by the fungus Cochliobolus miyabeanus. Also called Helminthosporium leaf spot, it is one of the most prevalent rice diseases in Louisiana. When C. miyabeanus attacks the rice plants at emergence, the resulting seedling blight causes sparse or inadequate stands and weakened plants."+
